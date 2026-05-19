@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/google_maps_screen.dart';
+import 'location_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: GoogleMapsScreen(),
+      home: LocationScreen(),
     );
   }
 }
